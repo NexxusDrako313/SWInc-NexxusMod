@@ -11,6 +11,8 @@ Giga
 Super
 Ultra
 Hyper
+Hello
+Welcome
 -base(base2)
 Talk
 Chat
@@ -19,6 +21,7 @@ Mail
 Message
 Web
 Speak
+Greet
 -base2(stop)
 .com
 .net
@@ -26,3 +29,6 @@ Speak
 .ly
 .me
 .tv
+.us
+.in
+.fy
