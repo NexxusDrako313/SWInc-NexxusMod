@@ -12,7 +12,7 @@
 	<InHouse>FALSE</InHouse>
 	<Category>Test</Category>
 	<OSLimit>Computer</OSLimit><!-- This means this software only works on Computer operating systems -->
-	<NameGenerator>Messenger</NameGenerator>
+	<NameGenerator>Messaging</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Text Messaging</Name>
@@ -39,7 +39,7 @@
 			<Name>Media Messaging</Name>
 			<Description>Images and text make a good message app.</Description>
             <Category>System</Category>
-            <ArtCategory>2D</Category>
+            <ArtCategory>2D</ArtCategory>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>3</Usability>
@@ -53,25 +53,29 @@
 			<Name>Rich Media Messaging</Name>
 			<Description>Images! Text! Links! Video! SO GOOD!</Description>
             <Category>System</Category>
-            <ArtCategory>2D</Category>
+            <ArtCategory>2D</ArtCategory>
 			<Unlock>2000</Unlock>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>4</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
+            <Dependency Software="2D Editor">Image rendering</Dependency>
+            <Dependency Software="Operating System">GUI</Dependency>
 		</Feature>
         <Feature From="Rich Media Messaging" Vital ="True">
 			<Name>Super Rich Media Messaging</Name>
 			<Description>Everything you could ever imagine sending is available!</Description>
             <Category>System</Category>
-            <ArtCategory>3D</Category>
+            <ArtCategory>3D</ArtCategory>
 			<Unlock>2010</Unlock>
 			<DevTime>5</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>5</Usability>
 			<Stability>2</Stability>
 			<CodeArt>0.5</CodeArt>
+            <Dependency Software="2D Editor">Image rendering</Dependency>
+            <Dependency Software="Operating System">GUI</Dependency>
 		</Feature>
         <Feature>
 			<Name>LAN</Name>
@@ -163,6 +167,7 @@
 			<Stability>1</Stability>
 			<CodeArt>0.6</CodeArt>
             <Unlock>1995</Unlock>
+            <Dependency Software="Operating System">GUI</Dependency>
 		</Feature>
         <Feature From="GUI" Vital ="True">>
 			<Name>Pretty GUI</Name>
@@ -174,10 +179,11 @@
 			<Stability>1</Stability>
 			<CodeArt>0.6</CodeArt>
             <Unlock>2005</Unlock>
+            <Dependency Software="Operating System">GUI</Dependency>
 		</Feature>
         <Feature From="Pretty GUI" Vital ="True">>
 			<Name>Web GUI</Name>
-			<Description>The web is the future!<Description>
+			<Description>The web is the future!</Description>
             <Category>2D</Category>
 			<DevTime>5</DevTime>
 			<Innovation>4</Innovation>
@@ -185,6 +191,7 @@
 			<Stability>2</Stability>
 			<CodeArt>0.5</CodeArt>
             <Unlock>2015</Unlock>
+            <Dependency Software="Operating System">GUI</Dependency>
 		</Feature>
 	</Features>
 </SoftwareType>
