@@ -1,0 +1,190 @@
+<SoftwareType>
+	<Name>Messaging</Name>
+	<Description>People use this to chat with other people.</Description>
+	<Random>0.2</Random>
+    <Unlock>1970</Unlock>
+	<Popularity>0.9</Popularity>
+    <Retention>0.8</Retention>
+	<TimeScale>1</TimeScale>
+	<Iterative>0</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Category>Test</Category>
+	<OSLimit>Computer</OSLimit><!-- This means this software only works on Computer operating systems -->
+	<NameGenerator>Messenger</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Text Messaging</Name>
+			<Description>This is such a basic feature, you'd be mad not to support it.</Description>
+			<DevTime>1</DevTime>
+            <Category>System</Category>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="Text Messaging" Vital ="True">
+			<Name>Rich Text Messaging</Name>
+			<Description>Text formatting is fun! Everyone's using it!</Description>
+            <Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+            <Unlock>1980</Unlock>
+		</Feature>
+		<Feature From="Rich Text Messaging" Vital ="True">
+			<Name>Media Messaging</Name>
+			<Description>Images and text make a good message app.</Description>
+            <Category>System</Category>
+            <ArtCategory>2D</Category>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Unlock>1990</Unlock>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+			<Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature From="Media Messaging" Vital ="True">
+			<Name>Rich Media Messaging</Name>
+			<Description>Images! Text! Links! Video! SO GOOD!</Description>
+            <Category>System</Category>
+            <ArtCategory>2D</Category>
+			<Unlock>2000</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+        <Feature From="Rich Media Messaging" Vital ="True">
+			<Name>Super Rich Media Messaging</Name>
+			<Description>Everything you could ever imagine sending is available!</Description>
+            <Category>System</Category>
+            <ArtCategory>3D</Category>
+			<Unlock>2010</Unlock>
+			<DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+        <Feature>
+			<Name>LAN</Name>
+			<Description>Connecting to your local network is better than nothing.</Description>
+            <Category>Network</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature From="LAN" Vital ="True">
+			<Name>Dial-Up</Name>
+			<Description>SCREECH SCREECH BING BING!</Description>
+            <Category>Network</Category>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Unlock>1982</Unlock>
+            <Server>0.0005</Server>
+		</Feature>
+        <Feature From="Dial-Up" Vital ="True">
+			<Name>DSL</Name>
+			<Description>Copper cables are the future... for about 10 years.</Description>
+            <Category>Network</Category>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Unlock>1992</Unlock>
+            <Server>0.001</Server>
+		</Feature>
+        <Feature From="DSL" Vital ="True">
+			<Name>Cable</Name>
+			<Description>Proper cables are the future... for another 10 years.</Description>
+            <Category>Network</Category>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Unlock>2002</Unlock>
+            <Server>0.0015</Server>
+		</Feature>
+        <Feature From="Cable" Vital ="True">
+			<Name>Fibre</Name>
+			<Description>Fibre Optics are the future!</Description>
+            <Category>Network</Category>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+            <Unlock>2012</Unlock>
+            <Server>0.002</Server>
+		</Feature>
+        <Feature>
+			<Name>Terminal</Name>
+			<Description>Terminals are important for geeks.</Description>
+            <Category>System</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature From="Terminal" Vital ="True">>
+			<Name>Pretty Terminal</Name>
+			<Description>Pretty terminals are important for businessmen.</Description>
+            <Category>System</Category>
+            <ArtCategory>2D</ArtCategory>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.8</CodeArt>
+            <Unlock>1985</Unlock>
+		</Feature>
+        <Feature From="Pretty Terminal" Vital ="True">>
+			<Name>GUI</Name>
+			<Description>GUIs are the future!</Description>
+            <Category>2D</Category>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.6</CodeArt>
+            <Unlock>1995</Unlock>
+		</Feature>
+        <Feature From="GUI" Vital ="True">>
+			<Name>Pretty GUI</Name>
+			<Description>GUI, but prettier!</Description>
+            <Category>2D</Category>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.6</CodeArt>
+            <Unlock>2005</Unlock>
+		</Feature>
+        <Feature From="Pretty GUI" Vital ="True">>
+			<Name>Web GUI</Name>
+			<Description>The web is the future!<Description>
+            <Category>2D</Category>
+			<DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+            <Unlock>2015</Unlock>
+		</Feature>
+	</Features>
+</SoftwareType>
